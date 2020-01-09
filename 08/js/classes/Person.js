@@ -1,9 +1,10 @@
 export default class Person {
   #weight = 10
-  constructor (firstName, lastName, age = 23) {
+  constructor (firstName, lastName, age = 23, weight = 150) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
+    this.#weight = weight
   }
   sayHi() {
     privateFunc.call(this, 234, 324)

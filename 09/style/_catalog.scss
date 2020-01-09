@@ -1,0 +1,19 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  .product-item {
+    width: 200px;
+    padding: 10px;
+    flex-grow: 1;
+
+    .product-title {
+      font-size: 16px;
+    }
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
