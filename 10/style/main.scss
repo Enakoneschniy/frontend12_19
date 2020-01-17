@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import "variables";
+@import "header";
+@import "catalog";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.cart-container {
+  padding: 20px;
+  .cart-item {
+    display: flex;
+    border: 1px solid $border-color;
+    margin-bottom: 15px;
+    position: relative;
+
+    .remove-btn-container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+
+      .remove-btn {
+        background: red;
+        color: white;
+        font-size: 16px;
+      }
+    }
+    .image {
+      padding: 10px;
+    }
+  }
+}
+
