@@ -1,0 +1,42 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": 1234,
+      "image": "https://via.placeholder.com/200"
+    },
+    {
+      "id": 2,
+      "title": "Product 123",
+      "price": 456,
+      "image": "https://via.placeholder.com/200"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 66,
+      "image": "https://via.placeholder.com/200"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1
+    }
+  ],
+  "cartProducts": [
+    {
+      "id": 1,
+      "cartId": 1,
+      "productId": 2,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "cartId": 1,
+      "productId": 1,
+      "quantity": 2
+    }
+  ]
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel -p 3000 watch ./*/*.html --out-dir dist --no-cache"
+    "dev": "parcel -p 3000 watch ./*/*.html --out-dir dist --no-cache",
+    "api": "json-server --watch ./api/db.json --port 8080"
   },
   "keywords": [],
   "author": "Eugene Nakoneschniy",
